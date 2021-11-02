@@ -8,7 +8,7 @@ $size-s: 4px;
 }
 .row {
   @include flex-center-between;
-  width:100%;
+  width: 100%;
   margin: 0 -$size-s;
   flex-wrap: wrap;
   & [class*="col"] {
@@ -47,6 +47,11 @@ $size-s: 4px;
   @for $i from 1 through 12 {
     .col-xl-#{$i} {
       width: ($i / 12 * 100%);
+    }
+  }
+  @for $i from 1 through 12 {
+    .offset-xl-#{$i} {
+      margin-left: ($i / 12 * 100%);
     }
   }
 }
