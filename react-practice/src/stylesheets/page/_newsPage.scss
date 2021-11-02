@@ -1,0 +1,40 @@
+.section-group-news {
+  width: 100%;
+  margin: 0 auto;
+  .news-group {
+    background-color: map-get($color , "gray-f" );
+    padding: 20px;
+  }
+}
+.news-item {
+  width: 740px;
+  height: 250px;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: map-get($color, "white");
+  .news-image {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .news-content {
+    @include justify-between;
+    height: 100%;
+  }
+  .news-info {
+    @include align-center;
+    &-item {
+      margin-right: 1rem;
+    }
+  }
+  .news-title {
+    color: map-get($color, "black");
+    font-weight: bold;
+    font-size: map-get($font-size , "xl" );
+  }
+  .news-text {
+    color: map-get($color, "gray-b");
+    font-weight: normal;
+  }
+}
