@@ -5,7 +5,7 @@ const Header = () => {
         <div className='container'>
           <ul className='header-group-item'>
             <li className='list-item logo'>
-              <span className='logo-block'>B</span>
+              <span className='logo-block'>A</span>
               <span className='logo-block'>B</span>
               <span className='logo-block'>C</span>
             </li>
