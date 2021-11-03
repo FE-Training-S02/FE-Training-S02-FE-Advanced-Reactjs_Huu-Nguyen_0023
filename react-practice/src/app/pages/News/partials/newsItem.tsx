@@ -31,7 +31,7 @@ const News = (props: NewsAttributes) => {
     <li className='col-xl-8 offset-xl-2'>
       <div className='news-item'>
         <a href={newsUrl} className='news-link card card-horizontal'>
-          <div className='card-image  news-image'>
+          <div className='card-image news-image'>
             <img src={imageUrl} alt={title} className='news-image' />
           </div>
           <div className='news-content card-body'>
