@@ -12,7 +12,7 @@ const Header = () => {
             <span className='logo-block'>C</span>
           </li>
           <li className='header-list-item'>
-            <Navigation/>
+            <Navigation />
           </li>
           <li className='header-list-item search-bar'>
             <input className='input' type='text' placeholder='Search' />
