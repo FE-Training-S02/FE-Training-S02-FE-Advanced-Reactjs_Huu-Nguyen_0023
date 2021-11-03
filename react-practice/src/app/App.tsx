@@ -1,4 +1,4 @@
-import GroupNews from 'app/news/index';
+import GroupNews from 'app/pages/News/news';
 import 'stylesheets/style.scss';
 
 function App() {

@@ -28,12 +28,11 @@
     }
   }
   .news-title {
+    @include font-size-weight(map-get($font-size, "xl"), 700);
     color: map-get($color, "black");
-    font-weight: bold;
-    font-size: map-get($font-size, "xl");
   }
   .news-text {
+    @include font-size-weight(map-get($font-size, "s"), 400);
     color: map-get($color, "gray-b");
-    font-weight: normal;
   }
 }
