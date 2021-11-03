@@ -1,10 +1,10 @@
-import GroupNews from "app/news/index";
-import 'stylesheets/style.scss'
+import GroupNews from 'app/news/index';
+import 'stylesheets/style.scss';
 
 function App() {
   return (
-    <div className="App">
-      <GroupNews/>
+    <div className='App'>
+      <GroupNews />
     </div>
   );
 }
