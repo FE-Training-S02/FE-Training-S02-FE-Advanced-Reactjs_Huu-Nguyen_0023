@@ -8,6 +8,7 @@
 }
 .news-item {
   height: 250px;
+  width:100%;
   margin: 1.5rem auto;
   border-radius: 10px;
   padding: 0.5rem;
@@ -29,10 +30,21 @@
   }
   .news-title {
     @include font-size-weight(map-get($font-size, "xl"), 700);
+    width:100%;
     color: map-get($color, "black");
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
   }
   .news-text {
     @include font-size-weight(map-get($font-size, "s"), 400);
     color: map-get($color, "gray-b");
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
   }
 }
