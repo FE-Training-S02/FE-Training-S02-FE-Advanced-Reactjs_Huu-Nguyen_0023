@@ -1,0 +1,42 @@
+.page-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: gray;
+  background-color: map-get($color, "black-dark");
+  .header-group-item {
+    @include flex-center-between;
+    height: 100%;
+    .logo {
+      width: 120px;
+      display: flex;
+      justify-content: flex-start;
+      padding-right: 1rem;
+    }
+    .search-bar {
+      width: 200px;
+      padding-left: 1rem;
+      border-right: none;
+    }
+    .header-list-item {
+      @include flex-center;
+      @include font-size-weight(map-get($font-size, "xs"), 600);
+      height: 100%;
+      cursor: pointer;
+      color: map-get($color, "white");
+      .logo-block {
+        @include flex-center;
+        @include font-size-weight(map-get($font-size, "xl"), 600);
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        background-color: map-get($color, "white");
+        color: map-get($color, "black-dark");
+      }
+    }
+    .header-list-item:nth-child(2) {
+      flex: 1;
+    }
+  }
+}

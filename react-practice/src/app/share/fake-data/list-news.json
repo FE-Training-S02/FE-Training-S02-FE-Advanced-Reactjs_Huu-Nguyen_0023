@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "topic": "politic",
+    "type": "video",
+    "newsUrl": "",
+    "imageUrl": "https://1.bp.blogspot.com/-bf6gVGHjQvk/YD-Z9-EpoBI/AAAAAAAAGoQ/s4d38ufW5cYBVo3Goq3FYVDOsRcmz8jSQCLcBGAsYHQ/s500/94.jpg",
+    "title": "More than 1.5 million people sought state unemployment benefit last week even as...",
+    "content": "There people evy me for having a lifestyle they don't have, but the truth is, sometime i envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.",
+    "author": "SEAN BOYNTON",
+    "createAt": "2020-09-15T07:00:00Z",
+    "timeRead": 12
+  },
+  {
+    "id": "2",
+    "topic": "religion",
+    "type": "news",
+    "newsUrl": "",
+    "imageUrl": "https://1.bp.blogspot.com/-rxguIRQdblg/YD-Z-fEcBHI/AAAAAAAAGoU/HxsR3nW-CskmbKlwe2Ip4qQplPViHP0nQCLcBGAsYHQ/s500/95.jpg",
+    "title": "Elite B.C Ontario crime network laundering 'hundreds of millions' a year, inquiry hears.",
+    "content": "There people evy me for having a lifestyle they don't have, but the truth is, sometime i envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.",
+    "author": "WALTER CRONKITE",
+    "createAt": "2020-09-16T08:15:00Z",
+    "timeRead": 14
+  },
+  {
+    "id": "3",
+    "topic": "healthy",
+    "type": "image",
+    "newsUrl": "",
+    "imageUrl": "https://1.bp.blogspot.com/-bf6gVGHjQvk/YD-Z9-EpoBI/AAAAAAAAGoQ/s4d38ufW5cYBVo3Goq3FYVDOsRcmz8jSQCLcBGAsYHQ/s500/94.jpg",
+    "title": "Daycares are opening across the country, but can they really operate safely.",
+    "content": "There people evy me for having a lifestyle they don't have, but the truth is, sometime i envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.",
+    "author": "JONATHAN LEMIRE",
+    "createAt": "2020-09-17T19:35:00Z",
+    "timeRead": 6
+  },
+  {
+    "id": "4",
+    "topic": "conflicts",
+    "type": "comment",
+    "newsUrl": "",
+    "imageUrl": "https://1.bp.blogspot.com/-rxguIRQdblg/YD-Z-fEcBHI/AAAAAAAAGoU/HxsR3nW-CskmbKlwe2Ip4qQplPViHP0nQCLcBGAsYHQ/s500/95.jpg",
+    "title": "Dwayne 'The Rock' Johnson confronts Donald Trump: 'Where are you?' ",
+    "content": "There people evy me for having a lifestyle they don't have, but the truth is, sometime i envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.",
+    "author": "WALTER CRONKITE",
+    "createAt": "2020-09-18T03:35:00Z",
+    "timeRead": 13
+  }
+]
